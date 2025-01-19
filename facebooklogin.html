@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FB login Form</title>
+    <style>
+        body{
+            background-color: #F2F4F7;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            display: flex;  
+            flex-direction: column;
+            padding-top: 60px;
+        }
+        .d1{
+            width: 28%;
+            height: 350px;
+            background-color:white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(220, 222, 225, 0.85), 0 6px 20px 0 rgb(220, 222, 225,0.85);
+        }
+        form{
+            text-align: center;
+        }
+        h2{
+            font-family: 'Helvetica, Arial, sans-serif';
+            font-size: 50px;
+            font-weight: 800px;
+            color: #0866FF;
+            padding: 20px;
+            margin: 0;
+        }
+        h3{
+            font-family: 'SFProDisplay-Regular, Helvetica, Arial, sans-serif';
+            font-size: large;
+            font-weight: 400px;
+            color: rgb(28, 30, 33);
+            line-height: 22px;
+            padding: 5px 0px 5px 0px;
+        }
+        .inp2 input{
+            padding: 8px;
+            width: 90%;
+            height: 40px;
+            margin: 8px;
+            border: 1px solid #E5E7E9;
+            border-radius: 5px ;
+        }
+        ::placeholder{
+            font-family: 'Helvetica, Arial, sans-serif';
+            font-size: 18px;
+        }
+        button{
+            border: none;
+            color: white;
+            background-color: #166FE5;
+            width: 94%;
+            height: 50px;
+            padding: 8px;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: 700;
+            margin: 8px 0px 0px 0px;
+        }
+        a{
+            text-decoration: none;
+            color: #166FE5;
+            padding: 10px;
+            
+        }
+        a:hover{
+            text-decoration: underline;
+            color: #4793F5;
+        }
+        .anc{
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>facebook</h2>
+    <div class="d1">
+        <form>
+            <h3>Log in to Facebook</h3>
+            <div class="inp2">
+                </i><input type="email" placeholder="Email address or phone number">
+                <br>
+                <input type="password" placeholder="Password">
+            </div>
+            <button>Log in</button>
+            <div class="anc"><a href="#">Forgotten account?</a><a href="#">Sign up for Facebook</a></div>
+        </form>
+    </div>
+</body>
+</html>
