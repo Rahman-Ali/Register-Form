@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Register Form</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+    <style>
+        body{
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            display: flex;
+            padding-top: 100px;
+        }
+        .d1{
+            width: 25%;
+            height: 550px;
+            background-color:rgb(177, 190, 198);
+            border-radius: 5px;
+            /* box-shadow:; */
+        }
+        form{
+            text-align: center;
+        }
+        h2{
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        hr{
+            border: 0.25px solid rgb(134, 131, 131);
+            width: 80%;
+        }
+        label{
+            font-size: 18px;
+        }
+        .inp1{
+            margin: 20px;
+            text-align: left;
+            padding-left: 20px;
+            
+        }
+        form .inp1 input{
+            width: 20px;
+            height: 15px;
+            background-color: rgb(255, 148, 127);
+        }
+        .inp2{
+            padding: 20px 20px 20px 35px; 
+            text-align: left;
+        }
+        .inp2 input{
+            padding: 8px;
+            width: 80%;
+            margin: 5px;
+            border: 1px;
+            border-radius: 0px 5px 5px 0px ;
+        }
+        p{
+            padding: 10px 50px;
+        }
+        button{
+            border: none;
+            color: white;
+            background-color: blue;
+            width: 80%;
+            padding: 8px;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+    <!-- Register Form using Internal Style-->
+
+<body>
+    <div class="d1">
+        <form>
+            <h2>Registration</h2>
+            <hr>
+            <div class="inp1">
+                <input type="radio" name="Personal" checked>
+                <label for="Personal">Personal</label>
+                <input type="radio" name="Personal">
+                <label for="Company">Company</label>
+            </div>
+            <hr>
+            <div class="inp2">
+                <i class="fa-solid fa-envelope"></i><input type="email" placeholder="Email">
+                <br>
+                <i class="fa-solid fa-user"></i><input type="text" placeholder="Name">
+                <br>
+                <i class="fa-solid fa-lock"></i><input type="password" placeholder="Password">
+            </div>
+            <hr>
+            <div class="inp1">
+                <input type="radio" name="Male" checked>
+                <label for="Male">Male</label>
+                <input type="radio" name="Male">
+                <label for="Female">Female</label>
+            </div>
+            <hr>
+            <p>By clicking the registe, you agree on our <a href="#">Privacy policy.</a></p>
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+</html>
